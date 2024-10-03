@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/Picture1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header,
+main {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    background-image: url(../img/01.png);
+    background-size: 240px;
+    background-repeat: no-repeat;
+    background-position: 6% 35%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    color: white;
+
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 64px;
+}
+
+.logo {
+    width: 113px;
+    height: 37;
+}
+
+.nav-header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.header-btn {
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.accaunt-icon {
+    width: 24px;
+    height: 24px;
+    padding-right: 7px;
+    padding-bottom: 2px;
+}
+
+#accaunt-btn {
+    font-size: 17px;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    width: 100%;
+    height: 265px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.header-btn_black {
+    font-weight: 700;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+.mobile-menu_upper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 64px;
+}
+
+.mobile-menu_lower {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 64px;
+}
+
+.header-conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    color: white;
+    padding-top: 186px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    gap: 16px;
+}
+
+.insta .twit {
+    size: 24px;
+}
+
+.follow-p {
+    writing-mode: vertical-rl;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-big_text {
+    width: 950px;
+    height: 419px;
+    margin: auto;
+    margin-left: 396px;
+}
+
+.line-p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 0;
+}
+
+.linepp {
+    margin-top: 32px;
+}
+
+.line {
+    width: 72px;
+    height: 2px;
+    top: 10px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.hiking-guide {
+    color: #FBD784;
+    size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.33em;
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+
+.big-text {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 114%;
+    text-transform: capitalize;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.arrow {
+    width: 16px;
+    height: 24px;
+    margin-left: 4px;
+}
+
+.arrow-right {
+    transform: rotate(-90deg);
+}
+
+.start {
+    width: 150px;
+    height: 270px;
+    padding-top: 39px;
+}
+
+.text {
+    width: Hug (632px)px;
+    height: Hug (465px)px;
+    top: 190px;
+    left: 134px;
+    gap: 27px;
+    opacity: 0px;
+    margin-right: 100px;
+    margin-top: 180px;
+}
+
+.main-one {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1462px;
+    height: 720px;
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 229px;
+    margin-right: 213px;
+    margin-top: 240px;
+}
+
+
+.medium-text {
+    font-family: Playfair Display;
+    font-size: 64px;
+    text-align: left;
+    width: 555px;
+    height: 170px;
+    margin-top: 32px;
+}
+
+.small-text {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    width: 632px;
+    height: 160px;
+    margin-top: 27px;
+    margin-bottom: 32px;
+}
+
+.mountains {
+    width: 500px;
+    height: 650px;
+    left: 896px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+@media (max-width: 768px) {
+    .header-btn {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-header__menu {
+        flex-direction: column;
+    }
+
+    .nav-header__menu>a {
+        margin-bottom: 5px;
+    }
+}
