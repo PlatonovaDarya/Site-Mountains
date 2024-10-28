@@ -339,6 +339,7 @@ main {
 
 
 @media (max-width: 1536px) {
+
     .main-one,
     .main-two,
     .footer-container {
@@ -440,6 +441,14 @@ main {
     .footer-container {
         width: 90%;
     }
+
+    .p-footer {
+        padding-bottom: 220px;
+    }
+
+    .copyright {
+        white-space: nowrap;
+    }
 }
 
 
@@ -528,15 +537,18 @@ main {
         font-size: 14px;
     }
 
-    .main-one,
-    .main-two {
-        background-size: 150px;
+    .main-one {
+        background-size: 120px;
     }
 
-    .main-one,
+    .main-three,
     .main-two {
         padding-bottom: 0;
         background-size: 150px;
+    }
+
+    .main-two {
+        background-position: initial;
     }
 
     .text {
@@ -547,7 +559,7 @@ main {
     .text2 {
         justify-content: right;
         width: auto;
-        margin-top: 130px;
+        margin-top: 80px;
     }
 
     .p-footer {
